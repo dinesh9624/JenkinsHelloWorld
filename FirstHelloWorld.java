@@ -8,6 +8,7 @@ public class FirstHelloWorld {
 		int c=a+b;
 		System.out.println("Welocme to new helloworld");
 		System.out.println("The value of C is" +c);
+		SYstem.out.println("Thank you for the work");
 
 	}
 
