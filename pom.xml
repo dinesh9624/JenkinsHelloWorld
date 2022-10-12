@@ -20,5 +20,10 @@
 
 </dependencies>
 
+<properties>
+    <maven.compiler.target>17.0</maven.compiler.target>
+    <maven.compiler.source>17.0</maven.compiler.source>
+</properties>
+
 </project>
 
