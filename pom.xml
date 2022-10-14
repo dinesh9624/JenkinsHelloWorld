@@ -24,6 +24,12 @@
             <version>${jakartaee}</version>
             <scope>provided</scope>
         </dependency>
+	
+	<dependency>
+    	    <groupId>org.sonarsource.scanner.maven</groupId>
+    	    <artifactId>sonar-maven-plugin</artifactId>
+    	    <version>3.0.2</version>
+	</dependency>
         
     </dependencies>
     
@@ -50,11 +56,6 @@
                 </configuration>
             </plugin>
 
-     <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>sonar-maven-plugin</artifactId>
-        <version>3.0.2</version>
-      </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
