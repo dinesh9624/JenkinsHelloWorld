@@ -58,5 +58,12 @@ pipeline {
             }
         }
         
+        stage ('Deployment is completed')
+        {
+            steps{
+                echo 'Deployment is successfully completed'
+            }
+        }
+        
     }
 }
